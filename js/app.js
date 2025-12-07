@@ -1,9 +1,9 @@
 const inputText1 = prompt("Введіть перше текстовe полe");
 const inputText2 = prompt("Введіть друге текстовe полe");
 if (inputText1 !== "" && inputText2 !== "") {
-  console.log("Обидва поля заповнені");
+  alert("Обидва поля заповнені");
 } else {
-  console.log("Не всі поля заповнені");
+  alert("Не всі поля заповнені");
 }
 
 const number1 = Number(prompt("Введіть перше число"));
